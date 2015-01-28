@@ -17,6 +17,8 @@
 @property(nonatomic,strong) IBOutlet UILabel *endTimeLabel;
 @property(nonatomic,strong) IBOutlet UIButton *editButton;
 @property(nonatomic,strong) IBOutlet UIButton *deleteButton;
+@property(nonatomic,strong) IBOutlet UIImageView *edit_imageView;
+@property(nonatomic,strong) IBOutlet UIImageView *delete_imageview;
 
 @property(nonatomic,strong)IBOutlet UIView *saveCancel_UIview;
 @property(nonatomic,strong)IBOutlet UIView *date_UIview;
@@ -27,5 +29,10 @@
 @property(nonatomic,strong)IBOutlet UITextField *startTime_TextField;
 @property(nonatomic,strong)IBOutlet UITextField *endTime_TextField;
 
+@property(nonatomic,strong)IBOutlet UIButton *date_edit_button_detailView;
+@property(nonatomic,strong)IBOutlet UIButton *startTime_edit_button_detailView;
+@property(nonatomic,strong)IBOutlet UIButton *endTime_edit_button_detailView;
 
+@property(nonatomic,strong)IBOutlet UIButton *save_button_detailView;
+@property(nonatomic,strong)IBOutlet UIButton *cancel_button_detailView;
 @end

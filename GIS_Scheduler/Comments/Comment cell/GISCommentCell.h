@@ -13,4 +13,8 @@
 
 @property (nonatomic,strong) IBOutlet UITextView *commentTextView;
 
+@property(nonatomic,strong)IBOutlet UILabel *accountsAdministration_label;
+@property(nonatomic,strong)IBOutlet UILabel *noComments_label;
+@property(nonatomic,strong)IBOutlet UILabel *scheduler_label;
+
 @end

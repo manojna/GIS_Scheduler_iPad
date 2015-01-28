@@ -16,9 +16,11 @@
     int rowCount;
     BOOL hideClicked;
     BOOL sectionhideClicked;
+    BOOL rowClicked;
+    BOOL rowsectionClicked;
     GISAppDelegate *appDelegate;
 }
 
-@property (nonatomic,retain)  IBOutlet UITableView *dashBoard_ListTableView;
-
+@property (nonatomic,strong)  IBOutlet UITableView *dashBoard_ListTableView;
+@property (nonatomic,strong) IBOutlet UILabel *cellLabel;
 @end

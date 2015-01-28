@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5053" systemVersion="13F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GISViewEditServiceViewController">
+            <connections>
+                <outlet property="dateButton" destination="fYX-kT-Dtv" id="now-c6-OQP"/>
+                <outlet property="dateImageView" destination="wHC-Tw-C4w" id="1yd-iJ-jHx"/>
+                <outlet property="dateTextField" destination="S7O-iR-tc5" id="9in-Ct-jg6"/>
+                <outlet property="dayItem" destination="A5X-Mm-3uC" id="oZj-Ib-7Ku"/>
+                <outlet property="fill_UnfillSegmentControl" destination="Hbk-hj-0dc" id="EMa-MZ-uog"/>
+                <outlet property="labelMonthAndYear" destination="uvu-ZN-CjM" id="RmV-2z-H6W"/>
+                <outlet property="mainTabbar" destination="Wee-oX-bOr" id="9ZD-x3-hwl"/>
+                <outlet property="mainView" destination="ZMu-x7-cuc" id="Lur-Yq-8TQ"/>
+                <outlet property="monthItem" destination="mEG-gT-Sij" id="APz-zd-gxJ"/>
+                <outlet property="serviceProviderButton" destination="xM0-0F-jhs" id="XxR-4M-Kgi"/>
+                <outlet property="staff_freeLancerButton" destination="sdi-2q-jax" id="ScI-NV-e1x"/>
+                <outlet property="staff_freeLancerSegmentControl" destination="3l3-vg-tT5" id="UFf-TJ-Fc4"/>
+                <outlet property="view" destination="tbj-fb-9Ld" id="H03-q9-Ord"/>
+                <outlet property="weekItem" destination="pxE-pu-yqq" id="baX-lx-9xP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="tbj-fb-9Ld">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="E8o-UH-sZw">
+                    <rect key="frame" x="0.0" y="34" width="1024" height="43"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="April 2014" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uvu-ZN-CjM">
+                            <rect key="frame" x="341" y="0.0" width="342" height="43"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                            <color key="textColor" red="0.084257274509999994" green="0.35492285820000002" blue="0.57565369899999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <tabBar contentMode="scaleToFill" itemPositioning="centered" itemSpacing="54" itemWidth="30" id="Wee-oX-bOr">
+                            <rect key="frame" x="0.0" y="-6" width="238" height="49"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <items>
+                                <tabBarItem title="Day" image="Day.png" id="A5X-Mm-3uC">
+                                    <inset key="imageInsets" minX="-24" minY="6" maxX="24" maxY="-6"/>
+                                    <offsetWrapper key="titlePositionAdjustment" horizontal="6" vertical="-15"/>
+                                </tabBarItem>
+                                <tabBarItem tag="1" title="Week" image="week.png" id="pxE-pu-yqq">
+                                    <inset key="imageInsets" minX="-28" minY="6" maxX="28" maxY="-6"/>
+                                    <offsetWrapper key="titlePositionAdjustment" horizontal="4" vertical="-15"/>
+                                </tabBarItem>
+                                <tabBarItem tag="2" title="Month" image="month.png" id="mEG-gT-Sij">
+                                    <inset key="imageInsets" minX="-30" minY="6" maxX="30" maxY="-6"/>
+                                    <offsetWrapper key="titlePositionAdjustment" horizontal="4" vertical="-16"/>
+                                </tabBarItem>
+                            </items>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="mno-la-Fcs"/>
+                            </connections>
+                        </tabBar>
+                    </subviews>
+                    <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="ZMu-x7-cuc">
+                    <rect key="frame" x="0.0" y="154" width="1024" height="614"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="3Ow-g1-U9g">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="aSc-BP-wrU">
+                            <rect key="frame" x="113" y="5" width="112" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xM0-0F-jhs">
+                                    <rect key="frame" x="0.0" y="0.0" width="112" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <state key="normal" title="Service Provider">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="serviceProviderSelected:" destination="-1" eventType="touchUpInside" id="lYe-j7-Tt4"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="8bq-6k-9kX">
+                            <rect key="frame" x="239" y="5" width="101" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fYX-kT-Dtv">
+                                    <rect key="frame" x="0.0" y="0.0" width="101" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <state key="normal" title="Date" backgroundImage="selected.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="dateSelected:" destination="-1" eventType="touchUpInside" id="fq8-04-ISj"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="S7O-iR-tc5">
+                            <rect key="frame" x="360" y="1" width="114" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" tag="222" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Img-zX-PTo">
+                            <rect key="frame" x="360" y="0.0" width="114" height="28"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal">
+                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="showDatePicker:" destination="-1" eventType="touchUpInside" id="S1g-16-Hq9"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calender.png" id="wHC-Tw-C4w">
+                            <rect key="frame" x="448" y="7" width="15" height="17"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="Hbk-hj-0dc">
+                    <rect key="frame" x="0.0" y="85" width="307" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <segments>
+                        <segment title="Filled"/>
+                        <segment title="Unfillled"/>
+                    </segments>
+                    <connections>
+                        <action selector="SegmentToggle:" destination="-1" eventType="valueChanged" id="NGd-M0-13f"/>
+                    </connections>
+                </segmentedControl>
+                <segmentedControl opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="3l3-vg-tT5">
+                    <rect key="frame" x="0.0" y="121" width="646" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <segments>
+                        <segment title="Staff"/>
+                        <segment title="Freelancer"/>
+                        <segment title="ServiceAgency"/>
+                        <segment title="Students"/>
+                    </segments>
+                    <connections>
+                        <action selector="SegmentToggle:" destination="-1" eventType="valueChanged" id="1Ks-RD-Wwd"/>
+                    </connections>
+                </segmentedControl>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" id="sdi-2q-jax">
+                    <rect key="frame" x="872" y="123" width="144" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" backgroundImage="choose_request_bg.png">
+                        <color key="titleColor" red="0.0" green="0.24313725489999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showServicePopoverDetails:" destination="-1" eventType="touchUpInside" id="Vu9-3K-Zc5"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Day.png" width="16" height="16"/>
+        <image name="calender.png" width="15" height="17"/>
+        <image name="choose_request_bg.png" width="135" height="20"/>
+        <image name="month.png" width="17" height="17"/>
+        <image name="selected.png" width="80" height="50"/>
+        <image name="week.png" width="17" height="17"/>
+    </resources>
+</document>

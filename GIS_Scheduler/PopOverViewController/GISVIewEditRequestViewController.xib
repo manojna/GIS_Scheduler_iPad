@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5053" systemVersion="13F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GISVIewEditRequestViewController">
+            <connections>
+                <outlet property="attendeesItem" destination="tIJ-Sg-zet" id="wSf-nv-43W"/>
+                <outlet property="attendees_newItem" destination="oIk-lZ-vUG" id="psw-UF-Adh"/>
+                <outlet property="commentsItem" destination="ofu-Uk-8bn" id="Yyr-fb-y51"/>
+                <outlet property="contactItem" destination="vC9-iw-Nlc" id="IGE-W0-B1b"/>
+                <outlet property="contact_newItem" destination="eCX-kE-7Hq" id="V7u-QF-GiY"/>
+                <outlet property="created_by_Label" destination="0UP-HX-xFv" id="RAv-Dk-kR2"/>
+                <outlet property="created_by_value_Label" destination="G1Y-Mi-EyC" id="Vqj-FK-N5a"/>
+                <outlet property="created_date_Label" destination="89y-OL-pTg" id="RZm-cq-e9Z"/>
+                <outlet property="created_date_value_Label" destination="ahw-5Y-nxk" id="SIg-ab-c5h"/>
+                <outlet property="datesItem" destination="NW9-Dz-83d" id="lhJ-zX-cAA"/>
+                <outlet property="dates_newItem" destination="gqw-bL-4CP" id="aiS-2h-YXL"/>
+                <outlet property="eventDetailsItem" destination="e7e-VT-ARa" id="egQ-bj-12u"/>
+                <outlet property="eventDetails_newItem" destination="2VK-8e-I2O" id="nxi-Pt-H3N"/>
+                <outlet property="jobdetailsItem" destination="xJ6-Qi-GBD" id="UV4-dZ-Xmp"/>
+                <outlet property="locationdetais_newItem" destination="Nbh-FB-YRH" id="aJO-dF-xhk"/>
+                <outlet property="locationdetaislItem" destination="hiv-TS-EzL" id="3u1-Do-bxb"/>
+                <outlet property="mainTabbar" destination="IDR-Wx-fme" id="a8W-WP-fQk"/>
+                <outlet property="mainView" destination="IsO-FR-6Zo" id="dHx-5j-8u7"/>
+                <outlet property="mainnewTabbar" destination="XbG-kt-vWf" id="vid-K6-Ye3"/>
+                <outlet property="requestBtn" destination="KGn-rU-eZO" id="6wF-7D-Fmy"/>
+                <outlet property="requestID_Label" destination="fhV-Nf-Y5d" id="Ll6-0m-Gr3"/>
+                <outlet property="status_Label" destination="Jul-iz-keh" id="erR-PI-YLX"/>
+                <outlet property="status_value_Label" destination="Tad-nu-2rg" id="p9y-Rp-rJd"/>
+                <outlet property="summarYItem" destination="eOQ-r2-XVz" id="5lU-Nh-mqd"/>
+                <outlet property="summarY_newItem" destination="zP6-Vk-We2" id="wW0-so-srE"/>
+                <outlet property="topView" destination="yEc-YG-u4i" id="2CY-3r-4z8"/>
+                <outlet property="view" destination="2" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="j9v-1Y-7SO">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="IsO-FR-6Zo">
+                            <rect key="frame" x="0.0" y="196" width="1024" height="572"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="yEc-YG-u4i">
+                            <rect key="frame" x="0.0" y="0.0" width="1024" height="182"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Request ID :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fhV-Nf-Y5d">
+                                    <rect key="frame" x="34" y="89" width="96" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" tag="111" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KGn-rU-eZO">
+                                    <rect key="frame" x="117" y="87" width="118" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" backgroundImage="choose_request_bg.png">
+                                        <color key="titleColor" red="0.0" green="0.24313725490196078" blue="0.51764705882352935" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="showPopoverDetails:" destination="-1" eventType="touchUpInside" id="yvG-5j-aUc"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created By:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0UP-HX-xFv">
+                                    <rect key="frame" x="251" y="89" width="78" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="G1Y-Mi-EyC">
+                                    <rect key="frame" x="330" y="89" width="69" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created Date :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="89y-OL-pTg">
+                                    <rect key="frame" x="537" y="89" width="94" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ahw-5Y-nxk">
+                                    <rect key="frame" x="623" y="89" width="93" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Jul-iz-keh">
+                                    <rect key="frame" x="408" y="89" width="53" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Tad-nu-2rg">
+                                    <rect key="frame" x="455" y="89" width="81" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <tabBar contentMode="scaleToFill" id="IDR-Wx-fme">
+                                    <rect key="frame" x="0.0" y="133" width="722" height="49"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <items>
+                                        <tabBarItem title="" image="contact_and_billing.png" id="vC9-iw-Nlc"/>
+                                        <tabBarItem tag="1" title="" image="event_details.png" id="e7e-VT-ARa"/>
+                                        <tabBarItem tag="2" title="" image="attendees_unPressed.png" id="tIJ-Sg-zet" userLabel="Tab Bar Item - Favorites"/>
+                                        <tabBarItem tag="3" title="" image="location.png" id="hiv-TS-EzL"/>
+                                        <tabBarItem tag="4" title="" image="dates_and_times.png" id="NW9-Dz-83d"/>
+                                        <tabBarItem tag="5" title="" image="job_details.png" id="xJ6-Qi-GBD"/>
+                                        <tabBarItem tag="6" title="" image="summary_unPressed.png" id="eOQ-r2-XVz"/>
+                                        <tabBarItem tag="7" title="" image="comments_unPressed.png" id="ofu-Uk-8bn"/>
+                                    </items>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="selectedImageTintColor">
+                                            <color key="value" red="0.0" green="0.27058823529411763" blue="0.48627450980392156" alpha="1" colorSpace="calibratedRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <outlet property="delegate" destination="-1" id="YrV-ni-vKo"/>
+                                    </connections>
+                                </tabBar>
+                                <tabBar contentMode="scaleToFill" id="XbG-kt-vWf">
+                                    <rect key="frame" x="0.0" y="133" width="722" height="49"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <items>
+                                        <tabBarItem title="" image="contact_and_billing.png" id="eCX-kE-7Hq"/>
+                                        <tabBarItem tag="1" title="" image="event_details.png" id="2VK-8e-I2O"/>
+                                        <tabBarItem tag="2" title="" image="attendees_unPressed.png" id="oIk-lZ-vUG"/>
+                                        <tabBarItem tag="3" title="" image="location.png" id="Nbh-FB-YRH"/>
+                                        <tabBarItem tag="4" title="" image="dates_and_times.png" id="gqw-bL-4CP"/>
+                                        <tabBarItem tag="6" title="" image="summary_unPressed.png" id="zP6-Vk-We2"/>
+                                    </items>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="selectedImageTintColor">
+                                            <color key="value" red="0.0" green="0.27058823529999998" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <outlet property="delegate" destination="-1" id="iu1-Po-nww"/>
+                                    </connections>
+                                </tabBar>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="attendees_unPressed.png" width="28" height="23"/>
+        <image name="choose_request_bg.png" width="135" height="20"/>
+        <image name="comments_unPressed.png" width="28" height="22"/>
+        <image name="contact_and_billing.png" width="21" height="22"/>
+        <image name="dates_and_times.png" width="20" height="22"/>
+        <image name="event_details.png" width="21" height="21"/>
+        <image name="job_details.png" width="27" height="22"/>
+        <image name="location.png" width="15" height="22"/>
+        <image name="summary_unPressed.png" width="26" height="22"/>
+    </resources>
+</document>

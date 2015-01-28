@@ -1,0 +1,1566 @@
+TGIS_Scheduler
+v6
+r1
+cCheck dependencies
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/AppDelegate/GISAppDelegate.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Attendees/GISAttendeesDetailsStore.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Attendees/GISAttendeesTopCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Attendees/GISAttendeesViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Comments/Comment\ cell/GISCommentCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Comments/GISCommentViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Contacts\ and\ Billing/GISContactsAndBillingViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Create\ Jobs/GISCreateJobsCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Create\ Jobs/GISCreateJobsViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/CustomAlertView/GISLoadingView.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DashBoard\ Views/GISDashBoardCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DashBoard\ Views/GISDashBoardListViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DashBoard\ Views/GISDashBoardReqCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DashBoard\ Views/GISDashBoardSPCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DashBoard\ Views/GISDashBoardViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DatesAndTimes/GISCreateJobs_Cell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DatesAndTimes/GISDatesAndTimesViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DatesAndTimes/GISDatesTimesDetailCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DatesAndTimes/GISDatesTimesDetailStore.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Event\ Details/EventDetail\ Cell/GISEventDetailsCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Event\ Details/EventDetail\ Cell/GISPreparationMaterialCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Event\ Details/GISEventDetailsViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/External/PCLogger/Amazon/AmazonClientManager.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/External/PCLogger/Amazon/Constants.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/External/PCLogger/PCAvailability.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/External/PCLogger/PCDebug.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/External/PCLogger/PCLogger.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/External/PCLogger/UncaughtExceptionHandler.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Find\ Request\ Jobs/GISFindRequestJobsObject.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Find\ Request\ Jobs/GISFindRequestJobsViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Find\ Request\ Jobs/GISFindRequestJobs_Cell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Fonts/GISFonts.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/GIS\ Login/GISLoginViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/GIS\ Store/GISContactsInfoStore.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/GIS\ Store/GISSchedulerNMRequestsStore.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/GIS\ Store/GISSchedulerSPJobsStore.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/GIS\ Store/GISStore.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/GIS\ Store/GISStoreManager.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Assignment/GISFilterMoreViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Assignment/GISJobAssignmentCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Assignment/GISJobAssignmentViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Assignment/GISServiceProviderPopUpViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISAddUpdateJobCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISAddUpdateJobsViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISAddUpdateObject.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISJobDetailsCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISJobDetailsObject.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISJobDetailsStore.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISJobDetailsViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISServiceProvidersNames_Store.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Json\ Properties/JSON/NSObject+SBJSON.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Json\ Properties/JSON/NSString+SBJSON.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Json\ Properties/JSON/SBFBJsonParser.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Json\ Properties/JSON/SBFBJsonWriter.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Json\ Properties/JSON/SBJSON.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Json\ Properties/JSON/SBJsonBase.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Json\ Properties/JSON/SBJsonWriter.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Location\ Details/GISLocationCell/GISLocationDetailsCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Location\ Details/GISLocationCell/GISLocationOnCampusCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Location\ Details/GISLocationDetailsViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Network/GISJsonRequest.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Network/GISRequest.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Network/GISRequestError.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Network/GISServerManager.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISAttendeesObject.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISAttendees_ListObject.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISBilingDataObject.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISChooseRequestDetailsObject.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISContactAndBillingObject.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISContactsInfoObject.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISDatesAndTimesObject.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISDropDownStore.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISDropDownsObject.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISLoginDetailsObject.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISSchedulerNMRequestsObject.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISSchedulerSPJobsObject.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISSearchReqObject.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISServiceProviderObject.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISServiceProviderStore.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISViewEditStore.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISViewScheduleObject.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/PopOverViewController/GISPopOverTableViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Reachability/Reachability.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Reachability/Utils.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/SP\ Requests\ JObs/GISServiceProviderRequestedJobsResultsViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/SP\ Requests\ JObs/GISServiceProviderRequestedJobsViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/GISSummaryViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/summary\ Cell/GISSummaryAttendeesCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/summary\ Cell/GISSummaryCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/summary\ Cell/GISSummaryDatesAndTimesCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/summary\ Cell/GISSummaryDatesDetailViewCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/summary\ Cell/GISSummaryJobDetailsCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/summary\ Cell/GISSummaryRequestModificationCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Utility/GISBaseViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Utility/GISDatabaseManager.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Utility/GISNetworkUtility.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Utility/GISUtility.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Request/GISVIewEditRequestViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFDayCalendarView/FFDayCalendarView.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFDayCalendarView/FFDayHeaderCollectionView/FFDayHeaderCell/FFDayHeaderButton.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFDayCalendarView/FFDayHeaderCollectionView/FFDayHeaderCell/FFDayHeaderCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFDayCalendarView/FFDayHeaderCollectionView/FFDayHeaderCollectionView.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFDayCalendarView/FFDayScrollView/FFDayCollectionView/FFDayCell/FFDayCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFDayCalendarView/FFDayScrollView/FFDayCollectionView/FFDayCollectionView.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFDayCalendarView/FFDayScrollView/FFDayCollectionView/FFDayCollectionViewFlowLayout.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFDayCalendarView/FFDayScrollView/FFDayScrollView.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFMonthCalendarView/FFMonthCalendarView.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFMonthCalendarView/FFMonthCollectionView/FFButtonWithEditAndDetailPopoversForMonthCell/FFButtonWithEditAndDetailPopoversForMonthCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFMonthCalendarView/FFMonthCollectionView/FFMonthCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFMonthCalendarView/FFMonthCollectionView/FFMonthCollectionView.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFMonthCalendarView/FFMonthCollectionView/FFMonthCollectionViewFlowLayout.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFMonthCalendarView/FFMonthHeaderView/FFMonthHeaderView.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFWeekCalendarView/FFWeekCalendarView.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFWeekCalendarView/FFWeekHeaderCollectionView/FFWeekHeaderCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFWeekCalendarView/FFWeekHeaderCollectionView/FFWeekHeaderCollectionView.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFWeekCalendarView/FFWeekScrollView/FFViewWithHourLines/FFHourAndMinLabel.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFWeekCalendarView/FFWeekScrollView/FFViewWithHourLines/FFViewWithHourLines.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFWeekCalendarView/FFWeekScrollView/FFWeekCollectionView/FFWeekCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFWeekCalendarView/FFWeekScrollView/FFWeekCollectionView/FFWeekCollectionView.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFWeekCalendarView/FFWeekScrollView/FFWeekCollectionView/FFWeekCollectionViewFlowLayout.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFWeekCalendarView/FFWeekScrollView/FFWeekScrollView.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFBlue\ and\ FFRed\ Buttons/FFBlueButton.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFBlue\ and\ FFRed\ Buttons/FFRedAndWhiteButton.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFCategories/NSDate+FFDaysCount.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFCategories/UIColor+FFMoreColors.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFCategories/UIImage+FFCustomMethods.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFCategories/UILabel+FFCustomMethods.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFDateManeger/FFDateManager.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEvent/FFEvent.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEditEvent\ View\ and\ Popover/FFButtonWithDatePopover/FFButtonWithDatePopover.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEditEvent\ View\ and\ Popover/FFButtonWithDatePopover/FFDatePopoverController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEditEvent\ View\ and\ Popover/FFButtonWithTimePopover/FFButtonWithHourPopover.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEditEvent\ View\ and\ Popover/FFButtonWithTimePopover/FFHourPopoverController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEditEvent\ View\ and\ Popover/FFEditEventPopoverController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEditEvent\ View\ and\ Popover/FFEditEventView.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEditEvent\ View\ and\ Popover/FFGuestsTableViewCell/FFGuestsTableView.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEditEvent\ View\ and\ Popover/FFGuestsTableViewCell/FFGuestsTableViewCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEditEvent\ View\ and\ Popover/FFSearchBarWithAutoComplete/FFSearchBarWithAutoComplete.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEventDetail\ View\ and\ Popover/FFEventDetailPopoverController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEventDetail\ View\ and\ Popover/FFEventDetailView.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/GISEeventShowBackgroundView.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/GISEventLabel.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/GISPopOverController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/GISViewEditDateObject.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/GISViewEditListVIewCell.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/GISViewEditListViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/GISViewEditServiceViewController.m
+r0
+
+CBuild AST from /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesdcf17eaf8351ba41^e6920eb58351ba41^---0#1#1#--18"Check dependencies36"08A192AB-0F96-4CA5-8C13-0E76FBF7D198-
+
+CCodeSign /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app
+r0
+
+CCompileAssetCatalog /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Images.xcassets
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/AmazonClientManager.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/External/PCLogger/Amazon/AmazonClientManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/Constants.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/External/PCLogger/Amazon/Constants.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFBlueButton.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFBlue\ and\ FFRed\ Buttons/FFBlueButton.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFButtonWithDatePopover.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEditEvent\ View\ and\ Popover/FFButtonWithDatePopover/FFButtonWithDatePopover.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFButtonWithEditAndDetailPopoversForMonthCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFMonthCalendarView/FFMonthCollectionView/FFButtonWithEditAndDetailPopoversForMonthCell/FFButtonWithEditAndDetailPopoversForMonthCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFButtonWithHourPopover.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEditEvent\ View\ and\ Popover/FFButtonWithTimePopover/FFButtonWithHourPopover.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFDateManager.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFDateManeger/FFDateManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFDatePopoverController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEditEvent\ View\ and\ Popover/FFButtonWithDatePopover/FFDatePopoverController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFDayCalendarView.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFDayCalendarView/FFDayCalendarView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFDayCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFDayCalendarView/FFDayScrollView/FFDayCollectionView/FFDayCell/FFDayCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFDayCollectionView.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFDayCalendarView/FFDayScrollView/FFDayCollectionView/FFDayCollectionView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFDayCollectionViewFlowLayout.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFDayCalendarView/FFDayScrollView/FFDayCollectionView/FFDayCollectionViewFlowLayout.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFDayHeaderButton.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFDayCalendarView/FFDayHeaderCollectionView/FFDayHeaderCell/FFDayHeaderButton.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFDayHeaderCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFDayCalendarView/FFDayHeaderCollectionView/FFDayHeaderCell/FFDayHeaderCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFDayHeaderCollectionView.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFDayCalendarView/FFDayHeaderCollectionView/FFDayHeaderCollectionView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFDayScrollView.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFDayCalendarView/FFDayScrollView/FFDayScrollView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFEditEventPopoverController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEditEvent\ View\ and\ Popover/FFEditEventPopoverController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFEditEventView.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEditEvent\ View\ and\ Popover/FFEditEventView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFEvent.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEvent/FFEvent.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFEventDetailPopoverController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEventDetail\ View\ and\ Popover/FFEventDetailPopoverController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFEventDetailView.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEventDetail\ View\ and\ Popover/FFEventDetailView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFGuestsTableView.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEditEvent\ View\ and\ Popover/FFGuestsTableViewCell/FFGuestsTableView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFGuestsTableViewCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEditEvent\ View\ and\ Popover/FFGuestsTableViewCell/FFGuestsTableViewCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFHourAndMinLabel.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFWeekCalendarView/FFWeekScrollView/FFViewWithHourLines/FFHourAndMinLabel.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFHourPopoverController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEditEvent\ View\ and\ Popover/FFButtonWithTimePopover/FFHourPopoverController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFMonthCalendarView.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFMonthCalendarView/FFMonthCalendarView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFMonthCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFMonthCalendarView/FFMonthCollectionView/FFMonthCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFMonthCollectionView.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFMonthCalendarView/FFMonthCollectionView/FFMonthCollectionView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFMonthCollectionViewFlowLayout.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFMonthCalendarView/FFMonthCollectionView/FFMonthCollectionViewFlowLayout.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFMonthHeaderView.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFMonthCalendarView/FFMonthHeaderView/FFMonthHeaderView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFRedAndWhiteButton.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFBlue\ and\ FFRed\ Buttons/FFRedAndWhiteButton.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFSearchBarWithAutoComplete.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFEventDetail\ and\ FFEditEvent\ Views\ and\ Popovers/FFEditEvent\ View\ and\ Popover/FFSearchBarWithAutoComplete/FFSearchBarWithAutoComplete.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFViewWithHourLines.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFWeekCalendarView/FFWeekScrollView/FFViewWithHourLines/FFViewWithHourLines.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFWeekCalendarView.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFWeekCalendarView/FFWeekCalendarView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFWeekCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFWeekCalendarView/FFWeekScrollView/FFWeekCollectionView/FFWeekCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFWeekCollectionView.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFWeekCalendarView/FFWeekScrollView/FFWeekCollectionView/FFWeekCollectionView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFWeekCollectionViewFlowLayout.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFWeekCalendarView/FFWeekScrollView/FFWeekCollectionView/FFWeekCollectionViewFlowLayout.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFWeekHeaderCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFWeekCalendarView/FFWeekHeaderCollectionView/FFWeekHeaderCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFWeekHeaderCollectionView.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFWeekCalendarView/FFWeekHeaderCollectionView/FFWeekHeaderCollectionView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/FFWeekScrollView.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/FFWeekCalendarView/FFWeekScrollView/FFWeekScrollView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISAddUpdateJobCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISAddUpdateJobCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISAddUpdateJobsViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISAddUpdateJobsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISAddUpdateObject.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISAddUpdateObject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISAppDelegate.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/AppDelegate/GISAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISAttendeesDetailsStore.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Attendees/GISAttendeesDetailsStore.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISAttendeesObject.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISAttendeesObject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISAttendeesTopCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Attendees/GISAttendeesTopCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISAttendeesViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Attendees/GISAttendeesViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISAttendees_ListObject.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISAttendees_ListObject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISBaseViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Utility/GISBaseViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISBilingDataObject.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISBilingDataObject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISChooseRequestDetailsObject.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISChooseRequestDetailsObject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISCommentCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Comments/Comment\ cell/GISCommentCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISCommentViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Comments/GISCommentViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISContactAndBillingObject.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISContactAndBillingObject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISContactsAndBillingViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Contacts\ and\ Billing/GISContactsAndBillingViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISContactsInfoObject.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISContactsInfoObject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISContactsInfoStore.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/GIS\ Store/GISContactsInfoStore.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISCreateJobsCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Create\ Jobs/GISCreateJobsCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISCreateJobsViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Create\ Jobs/GISCreateJobsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISCreateJobs_Cell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DatesAndTimes/GISCreateJobs_Cell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISDashBoardCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DashBoard\ Views/GISDashBoardCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISDashBoardListViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DashBoard\ Views/GISDashBoardListViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISDashBoardReqCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DashBoard\ Views/GISDashBoardReqCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISDashBoardSPCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DashBoard\ Views/GISDashBoardSPCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISDashBoardViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DashBoard\ Views/GISDashBoardViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISDatabaseManager.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Utility/GISDatabaseManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISDatesAndTimesObject.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISDatesAndTimesObject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISDatesAndTimesViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DatesAndTimes/GISDatesAndTimesViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISDatesTimesDetailCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DatesAndTimes/GISDatesTimesDetailCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISDatesTimesDetailStore.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DatesAndTimes/GISDatesTimesDetailStore.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISDropDownStore.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISDropDownStore.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISDropDownsObject.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISDropDownsObject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISEeventShowBackgroundView.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/GISEeventShowBackgroundView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISEventDetailsCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Event\ Details/EventDetail\ Cell/GISEventDetailsCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISEventDetailsViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Event\ Details/GISEventDetailsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISEventLabel.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/GISEventLabel.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISFilterMoreViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Assignment/GISFilterMoreViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISFindRequestJobsObject.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Find\ Request\ Jobs/GISFindRequestJobsObject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISFindRequestJobsViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Find\ Request\ Jobs/GISFindRequestJobsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISFindRequestJobs_Cell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Find\ Request\ Jobs/GISFindRequestJobs_Cell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISFonts.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Fonts/GISFonts.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISJobAssignmentCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Assignment/GISJobAssignmentCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISJobAssignmentViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Assignment/GISJobAssignmentViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISJobDetailsCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISJobDetailsCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISJobDetailsObject.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISJobDetailsObject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISJobDetailsStore.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISJobDetailsStore.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISJobDetailsViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISJobDetailsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISJsonRequest.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Network/GISJsonRequest.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISLoadingView.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/CustomAlertView/GISLoadingView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISLocationDetailsCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Location\ Details/GISLocationCell/GISLocationDetailsCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISLocationDetailsViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Location\ Details/GISLocationDetailsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISLocationOnCampusCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Location\ Details/GISLocationCell/GISLocationOnCampusCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISLoginDetailsObject.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISLoginDetailsObject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISLoginViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/GIS\ Login/GISLoginViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISNetworkUtility.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Utility/GISNetworkUtility.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISPopOverController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/GISPopOverController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISPopOverTableViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/PopOverViewController/GISPopOverTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISPreparationMaterialCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Event\ Details/EventDetail\ Cell/GISPreparationMaterialCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISRequest.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Network/GISRequest.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISRequestError.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Network/GISRequestError.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISSchedulerNMRequestsObject.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISSchedulerNMRequestsObject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISSchedulerNMRequestsStore.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/GIS\ Store/GISSchedulerNMRequestsStore.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISSchedulerSPJobsObject.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISSchedulerSPJobsObject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISSchedulerSPJobsStore.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/GIS\ Store/GISSchedulerSPJobsStore.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISSearchReqObject.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISSearchReqObject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISServerManager.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Network/GISServerManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISServiceProviderObject.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISServiceProviderObject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISServiceProviderPopUpViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Assignment/GISServiceProviderPopUpViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISServiceProviderRequestedJobsResultsViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/SP\ Requests\ JObs/GISServiceProviderRequestedJobsResultsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISServiceProviderRequestedJobsViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/SP\ Requests\ JObs/GISServiceProviderRequestedJobsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISServiceProviderStore.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISServiceProviderStore.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISServiceProvidersNames_Store.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISServiceProvidersNames_Store.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISStore.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/GIS\ Store/GISStore.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISStoreManager.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/GIS\ Store/GISStoreManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISSummaryAttendeesCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/summary\ Cell/GISSummaryAttendeesCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISSummaryCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/summary\ Cell/GISSummaryCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISSummaryDatesAndTimesCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/summary\ Cell/GISSummaryDatesAndTimesCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISSummaryDatesDetailViewCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/summary\ Cell/GISSummaryDatesDetailViewCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISSummaryJobDetailsCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/summary\ Cell/GISSummaryJobDetailsCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISSummaryRequestModificationCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/summary\ Cell/GISSummaryRequestModificationCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISSummaryViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/GISSummaryViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISUtility.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Utility/GISUtility.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISVIewEditRequestViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Request/GISVIewEditRequestViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISViewEditDateObject.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/GISViewEditDateObject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISViewEditListVIewCell.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/GISViewEditListVIewCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISViewEditListViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/GISViewEditListViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISViewEditServiceViewController.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/GISViewEditServiceViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISViewEditStore.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISViewEditStore.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/GISViewScheduleObject.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Objects/GISViewScheduleObject.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/NSDate+FFDaysCount.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFCategories/NSDate+FFDaysCount.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Json\ Properties/JSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/NSString+SBJSON.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Json\ Properties/JSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/PCAvailability.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/External/PCLogger/PCAvailability.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/PCDebug.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/External/PCLogger/PCDebug.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/PCLogger.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/External/PCLogger/PCLogger.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/Reachability.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Reachability/Reachability.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/SBFBJsonParser.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Json\ Properties/JSON/SBFBJsonParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/SBFBJsonWriter.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Json\ Properties/JSON/SBFBJsonWriter.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/SBJSON.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Json\ Properties/JSON/SBJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/SBJsonBase.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Json\ Properties/JSON/SBJsonBase.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/SBJsonWriter.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Json\ Properties/JSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/UIColor+FFMoreColors.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFCategories/UIColor+FFMoreColors.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/UIImage+FFCustomMethods.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFCategories/UIImage+FFCustomMethods.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/UILabel+FFCustomMethods.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/FFCategories/UILabel+FFCustomMethods.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/UncaughtExceptionHandler.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/External/PCLogger/UncaughtExceptionHandler.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/Utils.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Reachability/Utils.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/Objects-normal/armv7/main.o /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Attendees/GISAttendeesCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Attendees/GISAttendeesTopCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Attendees/GISAttendeesViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Comments/Comment\ cell/GISCommentCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Comments/GISCommentViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Contacts\ and\ Billing/GISContactsAndBillingViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Create\ Jobs/GISCreateJobsCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Create\ Jobs/GISCreateJobsViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DashBoard\ Views/GISDashBoardCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DashBoard\ Views/GISDashBoardListViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DashBoard\ Views/GISDashBoardReqCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DashBoard\ Views/GISDashBoardSPCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DashBoard\ Views/GISDashBoardViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DatesAndTimes/GISCreateJobs_Cell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DatesAndTimes/GISDatesAndTimesViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DatesAndTimes/GISDatesTimesDetailCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/DatesAndTimes/GISFindReqJobs_JobDataToSearch_Cell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Event\ Details/EventDetail\ Cell/GISEventDetailsCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Event\ Details/EventDetail\ Cell/GISPreparationMaterialCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Event\ Details/GISEventDetailsViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Find\ Request\ Jobs/GISFindReqJobs_ReqDataCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Find\ Request\ Jobs/GISFindRequestJobsViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/GIS\ Login/GISLoginViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Assignment/GISFilterMoreViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Assignment/GISJobAssignmentCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Assignment/GISJobAssignmentViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Assignment/GISServiceProviderCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Assignment/GISServiceProviderPopUpViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISAddUpdateJobsViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISBillingPaymentInfo.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISJobDetailsCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISJobDetailsViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISJobInfoCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISNotesHistoryCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Job\ Details/GISRequestServiceProvidersCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Location\ Details/GISLocationCell/GISLocationDetailsCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Location\ Details/GISLocationCell/GISLocationOnCampusCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Location\ Details/GISLocationDetailsViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/PopOverViewController/GISPopOverTableViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/PopOverViewController/GISVIewEditRequestViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/SP\ Requests\ JObs/GISServiceProviderRequestedJobsResultsViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/SP\ Requests\ JObs/GISServiceProviderRequestedJobsViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/GISSummaryViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/summary\ Cell/GISSummaryAttendeesCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/summary\ Cell/GISSummaryCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/summary\ Cell/GISSummaryDatesAndTimesCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/summary\ Cell/GISSummaryDatesDetailViewCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/summary\ Cell/GISSummaryJobDetailsCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/Summary/summary\ Cell/GISSummaryRequestModificationCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/GISViewEditListVIewCell.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/GISViewEditListViewController.xib
+r0
+
+CCompileXIB /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/View\ Edit\ Service/GISViewEditServiceViewController.xib
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/DailyCalendar.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/DailyCalendar.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/Day@2x.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/Day@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/Locationdetails.png GIS_Scheduler/Images/Locationdetails.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/Locationdetails@2x.png GIS_Scheduler/Images/Locationdetails@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/MonthlyCalendar.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/MonthlyCalendar.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/WeeklyCalendar.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/WeeklyCalendar.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/YearlyCalendar.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/YearlyCalendar.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/add.png GIS_Scheduler/Images/add.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/add@2x.png GIS_Scheduler/Images/add@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/arrow.png GIS_Scheduler/Images/arrow.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/arrow@2x.png GIS_Scheduler/Images/arrow@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/attendees.png GIS_Scheduler/Images/attendees.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/attendees@2x.png GIS_Scheduler/Images/attendees@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/attendees_pressed.png GIS_Scheduler/Images/attendees_pressed.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/attendees_pressed@2x.png GIS_Scheduler/Images/attendees_pressed@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/attendees_unPressed.png GIS_Scheduler/Images/attendees_unPressed.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/attendees_unPressed@2x.png GIS_Scheduler/Images/attendees_unPressed@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/blackCircle.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/blackCircle.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/calender.png GIS_Scheduler/Images/calender.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/calender@2x.png GIS_Scheduler/Images/calender@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/check.png GIS_Scheduler/Images/check.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/check@2x.png GIS_Scheduler/Images/check@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/check_pressed.png GIS_Scheduler/Images/check_pressed.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/check_pressed@2x.png GIS_Scheduler/Images/check_pressed@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/checked.png GIS_Scheduler/Images/checked.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/checked@2x.png GIS_Scheduler/Images/checked@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/choose_request_bg.png GIS_Scheduler/Images/choose_request_bg.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/choose_request_bg@2x.png GIS_Scheduler/Images/choose_request_bg@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/clock.png GIS_Scheduler/Images/clock.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/clock@2x.png GIS_Scheduler/Images/clock@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/comments.png GIS_Scheduler/Images/comments.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/comments@2x.png GIS_Scheduler/Images/comments@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/comments_pressed.png GIS_Scheduler/Images/comments_pressed.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/comments_pressed@2x.png GIS_Scheduler/Images/comments_pressed@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/comments_unPressed.png GIS_Scheduler/Images/comments_unPressed.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/comments_unPressed@2x.png GIS_Scheduler/Images/comments_unPressed@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/contact&billing.png GIS_Scheduler/Images/contact&billing.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/contact&billing@2x.png GIS_Scheduler/Images/contact&billing@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/contact_and_billing.png GIS_Scheduler/Images/contact_and_billing.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/contact_and_billing@2x.png GIS_Scheduler/Images/contact_and_billing@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/contact_and_billing_pressed.png GIS_Scheduler/Images/contact_and_billing_pressed.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/contact_and_billing_pressed@2x.png GIS_Scheduler/Images/contact_and_billing_pressed@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/dashboard.png GIS_Scheduler/Images/dashboard.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/dashboard@2x.png GIS_Scheduler/Images/dashboard@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/dashboard_pressed.png GIS_Scheduler/Images/dashboard_pressed.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/dashboard_pressed@2x.png GIS_Scheduler/Images/dashboard_pressed@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/date&times.png GIS_Scheduler/Images/date&times.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/date&times@2x.png GIS_Scheduler/Images/date&times@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/dates_and_times.png GIS_Scheduler/Images/dates_and_times.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/dates_and_times@2x.png GIS_Scheduler/Images/dates_and_times@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/dates_and_times_pressed.png GIS_Scheduler/Images/dates_and_times_pressed.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/dates_and_times_pressed@2x.png GIS_Scheduler/Images/dates_and_times_pressed@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/day.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/day.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/day_clicked.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/day_clicked.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/day_clicked@2x.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/day_clicked@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/delete.png GIS_Scheduler/Images/delete.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/delete@2x.png GIS_Scheduler/Images/delete@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/delete_pressed.png GIS_Scheduler/Images/delete_pressed.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/delete_pressed@2x.png GIS_Scheduler/Images/delete_pressed@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/dropdown.png GIS_Scheduler/Images/dropdown.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/dropdown@2x.png GIS_Scheduler/Images/dropdown@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/edit.png GIS_Scheduler/Images/edit.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/edit@2x.png GIS_Scheduler/Images/edit@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/edit_pressed.png GIS_Scheduler/Images/edit_pressed.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/edit_pressed@2x.png GIS_Scheduler/Images/edit_pressed@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/event_details.png GIS_Scheduler/Images/event_details.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/event_details@2x.png GIS_Scheduler/Images/event_details@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/event_details_pressed.png GIS_Scheduler/Images/event_details_pressed.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/event_details_pressed@2x.png GIS_Scheduler/Images/event_details_pressed@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/eventdetails.png GIS_Scheduler/Images/eventdetails.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/eventdetails@2x.png GIS_Scheduler/Images/eventdetails@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/find_requests_jobs.png GIS_Scheduler/Images/find_requests_jobs.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/find_requests_jobs@2x.png GIS_Scheduler/Images/find_requests_jobs@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/find_requests_jobs_pressed.png GIS_Scheduler/Images/find_requests_jobs_pressed.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/find_requests_jobs_pressed@2x.png GIS_Scheduler/Images/find_requests_jobs_pressed@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/incomplete_request.png GIS_Scheduler/Images/incomplete_request.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/incomplete_request@2x.png GIS_Scheduler/Images/incomplete_request@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/info.png GIS_Scheduler/Images/info.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/info@2x.png GIS_Scheduler/Images/info@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/job_details.png GIS_Scheduler/Images/job_details.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/job_details@2x.png GIS_Scheduler/Images/job_details@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/job_details_pressed.png GIS_Scheduler/Images/job_details_pressed.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/job_details_pressed@2x.png GIS_Scheduler/Images/job_details_pressed@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/jobdetails.png GIS_Scheduler/Images/jobdetails.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/jobdetails@2x.png GIS_Scheduler/Images/jobdetails@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/location.png GIS_Scheduler/Images/location.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/location@2x.png GIS_Scheduler/Images/location@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/location_pressed.png GIS_Scheduler/Images/location_pressed.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/location_pressed@2x.png GIS_Scheduler/Images/location_pressed@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/login_password.png GIS_Scheduler/Images/login_password.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/login_password@2x.png GIS_Scheduler/Images/login_password@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/login_username.png GIS_Scheduler/Images/login_username.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/login_username@2x.png GIS_Scheduler/Images/login_username@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/logo.png GIS_Scheduler/Images/logo.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/logo@2x.png GIS_Scheduler/Images/logo@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/logout.png GIS_Scheduler/Images/logout.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/logout@2x.png GIS_Scheduler/Images/logout@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/logout_pressed.png GIS_Scheduler/Images/logout_pressed.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/logout_pressed@2x.png GIS_Scheduler/Images/logout_pressed@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/month.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/month.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/month@2x.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/month@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/month_clicked.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/month_clicked.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/month_clicked@2x.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/month_clicked@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/radio_button_empty.png GIS_Scheduler/Images/radio_button_empty.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/radio_button_empty@2x.png GIS_Scheduler/Images/radio_button_empty@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/radio_button_filled.png GIS_Scheduler/Images/radio_button_filled.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/radio_button_filled@2x.png GIS_Scheduler/Images/radio_button_filled@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/redCircle.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/redCircle.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/requests_jobs.png GIS_Scheduler/Images/requests_jobs.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/requests_jobs_pressed.png GIS_Scheduler/Images/requests_jobs_pressed.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/save.png GIS_Scheduler/Images/save.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/save@2x.png GIS_Scheduler/Images/save@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/scheduling.png GIS_Scheduler/Images/scheduling.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/scheduling@2x.png GIS_Scheduler/Images/scheduling@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/scheduling_pressed.png GIS_Scheduler/Images/scheduling_pressed.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/scheduling_pressed@2x.png GIS_Scheduler/Images/scheduling_pressed@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/search.png GIS_Scheduler/Images/search.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/search@2x.png GIS_Scheduler/Images/search@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/selected.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/selected.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/selected@2x.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/selected@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/service_provider_hollow.png GIS_Scheduler/Images/service_provider_hollow.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/service_provider_hollow@2x.png GIS_Scheduler/Images/service_provider_hollow@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/service_providers.png GIS_Scheduler/Images/service_providers.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/service_providers@2x.png GIS_Scheduler/Images/service_providers@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/slider.png GIS_Scheduler/Images/slider.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/slider@2x.png GIS_Scheduler/Images/slider@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/summary.png GIS_Scheduler/Images/summary.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/summary@2x.png GIS_Scheduler/Images/summary@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/summary_edit.png GIS_Scheduler/Images/summary_edit.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/summary_edit@2x.png GIS_Scheduler/Images/summary_edit@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/summary_pressed.png GIS_Scheduler/Images/summary_pressed.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/summary_pressed@2x.png GIS_Scheduler/Images/summary_pressed@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/summary_unPressed.png GIS_Scheduler/Images/summary_unPressed.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/summary_unPressed@2x.png GIS_Scheduler/Images/summary_unPressed@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/tab_selected.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/tab_selected.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/tab_selected@2x.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/tab_selected@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/text_field_bg.png GIS_Scheduler/Images/text_field_bg.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/text_field_bg@2x.png GIS_Scheduler/Images/text_field_bg@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/text_field_bg_with_btn.png GIS_Scheduler/Images/text_field_bg_with_btn.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/text_field_bg_with_btn@2x.png GIS_Scheduler/Images/text_field_bg_with_btn@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/trash@2x.png GIS_Scheduler/Images/trash@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/unchecked.png GIS_Scheduler/Images/unchecked.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/unchecked@2x.png GIS_Scheduler/Images/unchecked@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/view.png GIS_Scheduler/Images/view.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/view@2x.png GIS_Scheduler/Images/view@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/view_pressed.png GIS_Scheduler/Images/view_pressed.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/view_pressed@2x.png GIS_Scheduler/Images/view_pressed@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/week.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/week.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/week@2x.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/week@2x.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/week_clicked.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/week_clicked.png
+r0
+
+CCopyPNGFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/week_clicked@2x.png GIS_Scheduler/View\ Edit\ Service/FFCalendars/Util/Images/week_clicked@2x.png
+r0
+
+CCopyStringsFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/custom.strings GIS_Scheduler/Localization/custom.strings
+r0
+
+CCopyStringsFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/en.lproj/InfoPlist.strings GIS_Scheduler/en.lproj/InfoPlist.strings
+r0
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Debug-iphoneos/GIS_Scheduler.app/ResourceRules.plist
+r0
+
+CCpResource GIS_Scheduler/Fonts/MyriadPro-Bold.otf build/Debug-iphoneos/GIS_Scheduler.app/MyriadPro-Bold.otf
+r0
+
+CCpResource GIS_Scheduler/Fonts/MyriadPro-Regular.otf build/Debug-iphoneos/GIS_Scheduler.app/MyriadPro-Regular.otf
+r0
+
+CCpResource GIS_Scheduler/Fonts/MyriadPro-Semibold.otf build/Debug-iphoneos/GIS_Scheduler.app/MyriadPro-Semibold.otf
+r0
+
+CCpResource GIS_Scheduler/Images/requests_Jobs@2x build/Debug-iphoneos/GIS_Scheduler.app/requests_Jobs@2x
+r0
+
+CCpResource GIS_Scheduler/Images/requests_Jobs_pressed@2x build/Debug-iphoneos/GIS_Scheduler.app/requests_Jobs_pressed@2x
+r0
+
+CGenerateDSYMFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app.dSYM /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/GIS_Scheduler
+r0
+
+CLd /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/GIS_Scheduler normal armv7
+r0
+
+CProcessInfoPlistFile /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/Info.plist /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/GIS_Scheduler/GIS_Scheduler-Info.plist
+r0
+
+CProcessPCH /Users/paradigm/Library/Developer/Xcode/DerivedData/GIS_Scheduler-fieatltbmdnlzxfrraxyxzqwofjg/Index/PrecompiledHeaders/GIS_Scheduler-Prefix-ezsiuswbgtwsgbdyhvymtmjhfstb_ast/GIS_Scheduler-Prefix.pch.pch GIS_Scheduler/GIS_Scheduler-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/paradigm/Library/Developer/Xcode/DerivedData/GIS_Scheduler-fieatltbmdnlzxfrraxyxzqwofjg/Index/PrecompiledHeaders/GIS_Scheduler-Prefix-hgoipwpmowoqzienymawuckutgyf_ast/GIS_Scheduler-Prefix.pch.pch GIS_Scheduler/GIS_Scheduler-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/g_/dsp18q4s2nv7ty64sb8xy7sh0000gp/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/GIS_Scheduler-Prefix-cniozdutsmvmavcaqoaejpehxfhc/GIS_Scheduler-Prefix.pch.pch GIS_Scheduler/GIS_Scheduler-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/g_/dsp18q4s2nv7ty64sb8xy7sh0000gp/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/GIS_Scheduler-Prefix-giwdaeryqmjkcocgmdnuuirvetot/GIS_Scheduler-Prefix.pch.pch GIS_Scheduler/GIS_Scheduler-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/GIS_Scheduler.build/Debug-iphoneos/GIS_Scheduler.build/GIS_Scheduler.xcent
+r0
+
+CProcessProductPackaging /Users/paradigm/Library/MobileDevice/Provisioning\ Profiles/60dc2de2-efe6-4b0e-a4d1-2fb6f6e9ffcb.mobileprovision /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app/embedded.mobileprovision
+r0
+
+CTouch /Users/paradigm/Desktop/GIS_IPad_Scheduler/GIS_Scheduler_iPad/build/Debug-iphoneos/GIS_Scheduler.app
+r0
+

@@ -12,7 +12,6 @@
 #import "GISLoginViewController.h"
 #import "GISConstants.h"
 #import "GISFonts.h"
-
 #import "GISAttendeesViewController.h"
 
 @implementation GISAppDelegate
@@ -21,22 +20,47 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    _attendeesArray = [[NSMutableArray alloc] init];
+    _datesArray = [[NSMutableArray alloc] init];
+    _detailArray = [[NSMutableArray alloc] init];
+    _jobEventsArray = [[NSMutableArray alloc] init];
+    _addNewJob_dictionary=[[NSMutableDictionary alloc]init];
+    _jobDetailsArray = [[NSMutableArray alloc] init];
+    _payTypeArray = [[NSMutableArray alloc] init];
+    _serviceTypeArray = [[NSMutableArray alloc] init];
+    _monthEventsArray = [[NSMutableArray alloc] init];
+    _showEventsArray = [[NSMutableArray alloc] init];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     
     self.spiltViewController = [[UISplitViewController alloc] init];
     
+    NSUserDefaults *userDefaults=[NSUserDefaults standardUserDefaults];
+    NSString *email = [userDefaults valueForKey:kEmail];
+    NSString *password = [userDefaults valueForKey:kPassword];
+
+    
     self.detailViewController = (GISDashBoardViewController *)[[GISDashBoardViewController alloc]initWithNibName:@"GISDashBoardViewController" bundle:nil];
     GISDashBoardListViewController *masterViewController = [[GISDashBoardListViewController alloc]initWithNibName:@"GISDashBoardListViewController" bundle:nil];
-    //GISAttendeesViewController *detailViewController = [[GISAttendeesViewController alloc]initWithNibName:@"GISAttendeesViewController" bundle:nil];
+
     
     UINavigationController *masterView=[[UINavigationController alloc]initWithRootViewController:masterViewController];
     UINavigationController *detailView=[[UINavigationController alloc]initWithRootViewController:self.detailViewController];
     
     GISLoginViewController *loginViewController = [[GISLoginViewController alloc]initWithNibName:@"GISLoginViewController" bundle:nil];
-    
+
     self.spiltViewController.delegate = self;
     self.spiltViewController.viewControllers = [NSArray arrayWithObjects:masterView,detailView,nil];
-    [self.window setRootViewController:loginViewController];
+    if([email length]>0 && [password length]>0){
+        
+        [self.window setRootViewController:self.spiltViewController];
+
+        
+    }else{
+
+        [self.window setRootViewController:loginViewController];
+
+    }
     
     [self.navigationcontroller.navigationBar setTranslucent:NO];
     
@@ -47,7 +71,22 @@
      [NSDictionary dictionaryWithObjectsAndKeys:
       UIColorFromRGB(0x00457c), NSForegroundColorAttributeName,
       [GISFonts larger], NSFontAttributeName,nil]];
-        
+    
+    self.isLogout = NO;
+    self.isContact = NO;
+    self.isFromViewEditService = NO;
+    
+    self.isDateView = NO;
+    self.isMonthView = NO;
+    self.isWeekView = NO;
+    self.isNoofAttendees = NO;
+    self.isShowfromDashboard = NO;
+    self.isHidefromDashboard = NO;
+    self.isfilled = NO;
+    self.islatestEvent = NO;
+    self.isRefreshIndex = NO;
+    self.isShowfromSPRequestedJobs = NO;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

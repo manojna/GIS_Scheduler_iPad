@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GISChooseRequestDetailsObject.h"
 
 @interface GISCommentViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,UITextViewDelegate>
-    
+
+@property(nonatomic,strong)GISChooseRequestDetailsObject *chooseRequestDetailsObj;
+@property(nonatomic,strong) IBOutlet UITableView *commentTableView;
 
 @end

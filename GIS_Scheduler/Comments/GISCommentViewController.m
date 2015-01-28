@@ -9,6 +9,8 @@
 #import "GISCommentViewController.h"
 #import "GISCommentCell.h"
 #import "GISConstants.h"
+#import "GISFonts.h"
+#import "GISStoreManager.h"
 
 @interface GISCommentViewController ()
 
@@ -30,7 +32,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear: animated];
     
+    [_commentTableView reloadData];
+    
+}
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return 1;
@@ -51,7 +61,7 @@
     
     
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-    {
+{
         GISCommentCell *cell;
         
         cell=(GISCommentCell *)[tableView dequeueReusableCellWithIdentifier:@"cell"];
@@ -63,31 +73,60 @@
         cell.selectionStyle=UITableViewCellSelectionStyleNone;
         
         cell.commentTextView.delegate = self;
-        cell.commentTextView.text = @"Add Comments";
+        cell.commentTextView.text = NSLocalizedStringFromTable(@"add_Comments", TABLE, nil);
         cell.commentTextView.textColor = UIColorFromRGB(0x00457c);
-        
-        
-        return cell;
-    }
+        [cell.commentTextView setFont:[GISFonts normal]];
     
+    NSMutableArray *chooseReqDetailedArray=[[GISStoreManager sharedManager]getChooseRequestDetailsObjects];
+    if (chooseReqDetailedArray.count>0) {
+        _chooseRequestDetailsObj=[chooseReqDetailedArray lastObject];
+    }
+    cell.noComments_label.text = [self returningstring:_chooseRequestDetailsObj.adminComments_String_chooseReqParsedDetails];
+    cell.commentTextView.text =[self returningstring:_chooseRequestDetailsObj.schedulerComments_String_chooseReqParsedDetails];
+    
+        return cell;
+}
+
 - (void)textViewDidBeginEditing:(UITextView *)textView
-    {
-        if ([textView.text isEqualToString:@"Add Comments"]) {
+{
+        if ([textView.text isEqualToString:NSLocalizedStringFromTable(@"add_Comments", TABLE, nil)]) {
             textView.text = @"";
             textView.textColor = [UIColor blackColor];
         }
         [textView becomeFirstResponder];
-    }
+}
     
 - (void)textViewDidEndEditing:(UITextView *)textView
-    {
+{
         if ([textView.text isEqualToString:@""]) {
-            textView.text = @"Add Comments";
+            //textView.text = @"Add Comments";
             textView.textColor = UIColorFromRGB(0x00457c);
         }
         [textView resignFirstResponder];
+}
+
+
+-(NSString *)returningstring:(id)string
+{
+    if ([string length] == 0)
+    {
+        return @"";
+    }
+    else
+    {
+        if (![string isKindOfClass:[NSString class]])
+        {
+            NSString *str= [string stringValue];
+            return str;
+        }
+        else
+        {
+            return string;
+        }
     }
     
+}
+
 
 - (void)didReceiveMemoryWarning
 {

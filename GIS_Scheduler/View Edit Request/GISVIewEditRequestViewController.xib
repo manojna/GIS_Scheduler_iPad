@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4510" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4510" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GISVIewEditRequestViewController">
@@ -9,14 +10,20 @@
                 <outlet property="attendeesItem" destination="tIJ-Sg-zet" id="wSf-nv-43W"/>
                 <outlet property="commentsItem" destination="ofu-Uk-8bn" id="Yyr-fb-y51"/>
                 <outlet property="contactItem" destination="vC9-iw-Nlc" id="cO8-WS-MPJ"/>
+                <outlet property="created_by_Label" destination="0UP-HX-xFv" id="RAv-Dk-kR2"/>
+                <outlet property="created_by_value_Label" destination="G1Y-Mi-EyC" id="Vqj-FK-N5a"/>
+                <outlet property="created_date_Label" destination="89y-OL-pTg" id="RZm-cq-e9Z"/>
+                <outlet property="created_date_value_Label" destination="ahw-5Y-nxk" id="SIg-ab-c5h"/>
                 <outlet property="datesItem" destination="NW9-Dz-83d" id="lhJ-zX-cAA"/>
                 <outlet property="eventDetailsItem" destination="e7e-VT-ARa" id="egQ-bj-12u"/>
                 <outlet property="jobdetailsItem" destination="xJ6-Qi-GBD" id="UV4-dZ-Xmp"/>
                 <outlet property="locationdetaislItem" destination="hiv-TS-EzL" id="3u1-Do-bxb"/>
                 <outlet property="mainTabbar" destination="IDR-Wx-fme" id="a8W-WP-fQk"/>
                 <outlet property="mainView" destination="IsO-FR-6Zo" id="dHx-5j-8u7"/>
-                <outlet property="requestID_Answer_Label" destination="A5g-Z0-a5S" id="EE2-dz-bsn"/>
+                <outlet property="requestBtn" destination="KGn-rU-eZO" id="6wF-7D-Fmy"/>
                 <outlet property="requestID_Label" destination="fhV-Nf-Y5d" id="Ll6-0m-Gr3"/>
+                <outlet property="status_Label" destination="Jul-iz-keh" id="erR-PI-YLX"/>
+                <outlet property="status_value_Label" destination="Tad-nu-2rg" id="p9y-Rp-rJd"/>
                 <outlet property="summarYItem" destination="eOQ-r2-XVz" id="5lU-Nh-mqd"/>
                 <outlet property="view" destination="2" id="3"/>
             </connections>
@@ -30,54 +37,39 @@
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Request ID :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fhV-Nf-Y5d">
-                            <rect key="frame" x="144" y="94" width="96" height="21"/>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Request ID :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fhV-Nf-Y5d">
+                            <rect key="frame" x="35" y="94" width="96" height="21"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <button opaque="NO" tag="111" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KGn-rU-eZO">
-                            <rect key="frame" x="248" y="92" width="135" height="25"/>
+                        <button opaque="NO" tag="111" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KGn-rU-eZO">
+                            <rect key="frame" x="118" y="92" width="135" height="25"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
                             <state key="normal" backgroundImage="choose_request_bg.png">
+                                <color key="titleColor" red="0.0" green="0.24313725490196078" blue="0.51764705882352935" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
+                            <connections>
+                                <action selector="showPopoverDetails:" destination="-1" eventType="touchUpInside" id="yvG-5j-aUc"/>
+                            </connections>
                         </button>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="A5g-Z0-a5S">
-                            <rect key="frame" x="257" y="94" width="96" height="21"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZZx-Tq-kfx">
-                            <rect key="frame" x="391" y="96" width="20" height="18"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                            <state key="normal" backgroundImage="info.png">
-                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                            </state>
-                        </button>
-                        <view contentMode="scaleToFill" id="IsO-FR-6Zo">
-                            <rect key="frame" x="0.0" y="196" width="1024" height="572"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        </view>
                         <tabBar contentMode="scaleToFill" id="IDR-Wx-fme">
                             <rect key="frame" x="0.0" y="140" width="1024" height="49"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <items>
-                                <tabBarItem title="Contact &amp; Billing" image="contact_and_billing.png" id="vC9-iw-Nlc"/>
-                                <tabBarItem tag="1" title="Event Details" image="event_details.png" id="e7e-VT-ARa"/>
-                                <tabBarItem tag="2" title="Attendees" image="attendees_unPressed.png" id="tIJ-Sg-zet" userLabel="Tab Bar Item - Favorites"/>
-                                <tabBarItem tag="3" title="Location Details" image="location.png" id="hiv-TS-EzL"/>
-                                <tabBarItem tag="4" title="Dates &amp; Times" image="dates_and_times.png" id="NW9-Dz-83d"/>
-                                <tabBarItem tag="4" title="Job Details" image="job_details.png" id="xJ6-Qi-GBD"/>
-                                <tabBarItem tag="4" title="Summary" image="summary_unPressed.png" id="eOQ-r2-XVz"/>
-                                <tabBarItem tag="5" title="Comments" image="comments_unPressed.png" id="ofu-Uk-8bn"/>
+                                <tabBarItem title="" image="contact_and_billing.png" id="vC9-iw-Nlc"/>
+                                <tabBarItem tag="1" title="" image="event_details.png" id="e7e-VT-ARa"/>
+                                <tabBarItem tag="2" title="" image="attendees_unPressed.png" id="tIJ-Sg-zet" userLabel="Tab Bar Item - Favorites"/>
+                                <tabBarItem tag="3" title="" image="location.png" id="hiv-TS-EzL"/>
+                                <tabBarItem tag="4" title="" image="dates_and_times.png" id="NW9-Dz-83d"/>
+                                <tabBarItem tag="5" title="" image="job_details.png" id="xJ6-Qi-GBD"/>
+                                <tabBarItem tag="6" title="" image="summary_unPressed.png" id="eOQ-r2-XVz"/>
+                                <tabBarItem tag="7" title="" image="comments_unPressed.png" id="ofu-Uk-8bn"/>
                             </items>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="color" keyPath="selectedImageTintColor">
@@ -88,6 +80,53 @@
                                 <outlet property="delegate" destination="-1" id="YrV-ni-vKo"/>
                             </connections>
                         </tabBar>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created By:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0UP-HX-xFv">
+                            <rect key="frame" x="261" y="94" width="84" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="G1Y-Mi-EyC">
+                            <rect key="frame" x="342" y="94" width="73" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created Date :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="89y-OL-pTg">
+                            <rect key="frame" x="400" y="94" width="94" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ahw-5Y-nxk">
+                            <rect key="frame" x="492" y="94" width="93" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" id="IsO-FR-6Zo">
+                            <rect key="frame" x="0.0" y="196" width="1024" height="572"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Jul-iz-keh">
+                            <rect key="frame" x="573" y="94" width="53" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Tad-nu-2rg">
+                            <rect key="frame" x="625" y="94" width="84" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                 </view>
@@ -104,7 +143,6 @@
         <image name="contact_and_billing.png" width="21" height="22"/>
         <image name="dates_and_times.png" width="20" height="22"/>
         <image name="event_details.png" width="21" height="21"/>
-        <image name="info.png" width="20" height="20"/>
         <image name="job_details.png" width="27" height="22"/>
         <image name="location.png" width="15" height="22"/>
         <image name="summary_unPressed.png" width="26" height="22"/>

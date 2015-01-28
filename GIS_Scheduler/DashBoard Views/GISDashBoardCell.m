@@ -7,6 +7,7 @@
 //
 
 #import "GISDashBoardCell.h"
+#import "GISFonts.h"
 
 @implementation GISDashBoardCell
 
@@ -25,6 +26,17 @@
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
+    
+    [_accountName_Label setFont:[GISFonts normal]];
+    [_requestID_Label setFont:[GISFonts normal]];
+    [_eventType_Label setFont:[GISFonts normal]];
+    [_otherServices_Label setFont:[GISFonts normal]];
+    [_earliestDate_Label setFont:[GISFonts normal]];
+    [_approvalDate_Label setFont:[GISFonts normal]];
+    [_approvedBy_Label setFont:[GISFonts normal]];
+    [_status_Label setFont:[GISFonts normal]];
+    [_scheduler_Label setFont:[GISFonts normal]];
+    
 }
 
 @end

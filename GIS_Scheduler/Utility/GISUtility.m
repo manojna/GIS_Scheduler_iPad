@@ -8,6 +8,7 @@
 
 #import "GISUtility.h"
 #import "GISFonts.h"
+#import "GISPopOverTableViewController.h"
 
 @implementation GISUtility
 
@@ -97,23 +98,29 @@
 
 +(void)moveemailView:(BOOL)ismove viewHeight:(int)viewUpHeight view:(UIView *)currentView
 {
-    CGRect frame=currentView.frame;
+    
     if(ismove)
     {
-        frame.origin.y-=viewUpHeight;
+        [UIView beginAnimations: @"anim" context: nil];
+        [UIView setAnimationBeginsFromCurrentState: YES];
+        [UIView setAnimationDuration:1.0];
+        
+        CGRect frame=currentView.frame;
+        frame.origin.y=viewUpHeight;
+        currentView.frame=frame;
+        [UIView commitAnimations];
     }
     else
     {
+        [UIView beginAnimations: @"anim" context: nil];
+        [UIView setAnimationBeginsFromCurrentState: YES];
+        [UIView setAnimationDuration:0.2];
+        CGRect frame=currentView.frame;
+        frame.origin.y=0;
+        currentView.frame=frame;
         
-        frame.origin.y =viewUpHeight;
+        [UIView commitAnimations];
     }
-    [UIView animateWithDuration:0.3f
-                          delay:0.0f
-                        options:UIViewAnimationOptionCurveEaseIn
-                     animations:^{
-                         [currentView setFrame:frame];
-                     }
-                     completion:nil];
 }
 
 +(NSString *)returningstring:(id)string
@@ -138,4 +145,124 @@
     
 }
 
++(UIPopoverController *)showPopOver:(NSMutableArray *)localArray viewController:(GISPopOverTableViewController*)tableViewController{
+
+    UIPopoverController *popover =[[UIPopoverController alloc] initWithContentViewController:tableViewController];
+    popover.popoverContentSize = CGSizeMake(300, 210);
+    tableViewController.popOverArray=localArray;
+   
+    return popover;
+}
+
+
+
++(BOOL)dateComparision:(NSString *)startTime :(NSString *)endTime :(BOOL)isStartTimeComaprsion
+{
+    if (isStartTimeComaprsion) {
+        if ([endTime compare:startTime] == NSOrderedDescending || [endTime compare:startTime]==NSOrderedSame)
+        {
+            NSLog(@" Good");
+            return YES;
+        }
+        return NO;
+    }
+    
+    if ([startTime compare:endTime] == NSOrderedAscending || [startTime compare:endTime]==NSOrderedSame)
+    {
+        NSLog(@" Good");
+        return YES;
+    }
+    return NO;
+}
+
++(BOOL)timeComparision:(NSString *)startTime :(NSString *)endTime
+{
+    NSDateFormatter *timeformatter=[[NSDateFormatter alloc]init];
+    NSLocale *locale = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"];
+    [timeformatter setLocale:locale];
+    [timeformatter setDateFormat:@"hh:mm a"];
+    
+    NSDate *date1=[timeformatter dateFromString:startTime];
+    NSDate *date2=[timeformatter dateFromString:endTime];
+    NSLog(@"%ff is the time difference",[date2 timeIntervalSinceDate:date1]);
+    if([date2 timeIntervalSinceDate:date1]>0)
+    {
+        return YES;
+        NSLog(@" Good");
+    }
+    
+    NSLog(@" BAD");
+    return NO;
+    
+}
+
++(NSString *)eventDisplayFormat:(NSDate *)fromdate
+{
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-dd HH:mm:ss Z"];
+    [dateFormat setTimeZone:[NSTimeZone timeZoneWithAbbreviation:@"UTC"]];
+    NSString *dateStr = [dateFormat stringFromDate:fromdate];
+    NSDate *myDate = [dateFormat dateFromString:dateStr];
+    
+    NSDateComponents *components= [[NSDateComponents alloc] init];
+    [components setDay:0];
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSDate *dateIncremented= [calendar dateByAddingComponents:components toDate:myDate options:0];
+    
+    NSDateFormatter *myDateFormatter = [[NSDateFormatter alloc] init];
+    [myDateFormatter setDateFormat:@"MM/dd/yyyy"];
+    NSString *stringFromDate = [myDateFormatter stringFromDate:dateIncremented];
+    
+    return stringFromDate;
+}
+
++(NSString *) getTimeData:(NSString *) timeString{
+    
+    NSDateFormatter *dtf = [[NSDateFormatter alloc] init];
+    [dtf setDateFormat:@"hh:mm a"];
+    [dtf setFormatterBehavior:NSDateFormatterBehaviorDefault];
+    NSLocale *curentLocale = [NSLocale currentLocale];
+    [dtf setLocale:[[NSLocale alloc] initWithLocaleIdentifier:[curentLocale localeIdentifier]]];
+    NSDate *date = [dtf dateFromString:timeString];
+    
+    dtf.dateFormat = @"HH:mm";
+    NSString *pmamDateString = [dtf stringFromDate:date];
+    
+    return pmamDateString;
+}
+
++(NSString *)getEventTime:(NSDate *)fromdate
+{
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-dd HH:mm:ss Z"];
+    [dateFormat setTimeZone:[NSTimeZone timeZoneWithAbbreviation:@"UTC"]];
+    NSString *dateStr = [dateFormat stringFromDate:fromdate];
+    NSDate *myDate = [dateFormat dateFromString:dateStr];
+    
+    NSDateFormatter *dtf = [[NSDateFormatter alloc] init];
+    [dtf setDateFormat:@"hh:mm a"];
+    [dtf setFormatterBehavior:NSDateFormatterBehaviorDefault];
+    NSLocale *curentLocale = [NSLocale currentLocale];
+    [dtf setLocale:[[NSLocale alloc] initWithLocaleIdentifier:[curentLocale localeIdentifier]]];
+    NSString *stringFromDate = [dtf stringFromDate:myDate];
+    
+    return stringFromDate;
+}
+
++(UITableViewCell *)findParentTableViewCell:(UIButton *)button
+{
+    UIView *view = button.superview;
+    while (view.superview != nil)
+    {
+        if ([view isKindOfClass:[UITableViewCell class]])
+        {
+            return (UITableViewCell *)view;
+        }
+        else
+        {
+            view = view.superview;
+        }
+    }
+    return nil;
+}
 @end

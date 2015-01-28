@@ -30,6 +30,11 @@
     self.dayLabel.textColor=UIColorFromRGB(0x666666);
     self.startTime_Label.textColor=UIColorFromRGB(0x666666);
     self.endTimeLabel.textColor=UIColorFromRGB(0x666666);
+    
+    self.date_TextField.textColor=UIColorFromRGB(0x666666);
+    self.startTime_TextField.textColor=UIColorFromRGB(0x666666);
+    self.endTime_TextField.textColor=UIColorFromRGB(0x666666);
+    
     self.dateLabel.font=[GISFonts small];
     self.dayLabel.font=[GISFonts small];
     self.startTime_Label.font=[GISFonts small];

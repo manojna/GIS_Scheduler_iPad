@@ -7,11 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GISLoginDetailsObject.h"
+#import "GISPopOverTableViewController.h"
+#import "GISAppDelegate.h"
+#import "GISContactAndBillingObject.h"
+#import "GISChooseRequestDetailsObject.h"
 
-@interface GISContactsAndBillingViewController : UIViewController
+@interface GISContactsAndBillingViewController : UIViewController<UIPopoverControllerDelegate,PopOverSelected_Protocol>
 {
-//    IBOutlet UILabel *_Label;
-//    IBOutlet UILabel *_Answer_Label;
+    GISAppDelegate *appDelegate;
+    UITextField *currentTextField;
+    GISContactAndBillingObject *contactBilling_Object;
+    GISChooseRequestDetailsObject *chooseRequestDetailsObj;
     
     IBOutlet UILabel *requestorDetails_Label;
     
@@ -63,5 +70,21 @@
     IBOutlet UILabel *buhZip_Answer_Label;
     
     IBOutlet UIButton *nextButton;
+    UIPopoverController *popover;
+    
+    NSMutableArray *unitOrDepartment_mutArray;
+    NSMutableArray *contacts_Info_mutArray;
+    GISLoginDetailsObject *login_Obj;
+    
+    IBOutlet UIButton *contacts_button;
+    IBOutlet UIButton *unitDep_Button;
+    
+    GISPopOverTableViewController *tableViewController;
+    
+    int btnTag;
+    
+    NSString *unit_departmentID_String;   
 }
+- (IBAction)chooseRequestDropDown:(id)sender;
+- (IBAction)nextButtonPressed:(id)sender;
 @end

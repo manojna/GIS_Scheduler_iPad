@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4514" systemVersion="13D65" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5053" systemVersion="13F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -61,18 +61,18 @@
                         <rect key="frame" x="474" y="11" width="16" height="16"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
-                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lAq-8A-ary" userLabel="Date">
-                        <rect key="frame" x="92" y="0.0" width="87" height="38"/>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lAq-8A-ary" userLabel="Date">
+                        <rect key="frame" x="87" y="0.0" width="92" height="38"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LB4-ms-3Jy">
-                                <rect key="frame" x="2" y="5" width="85" height="30"/>
+                                <rect key="frame" x="0.0" y="5" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ZR-Cf-7bX">
-                                <rect key="frame" x="2" y="4" width="82" height="30"/>
+                                <rect key="frame" x="7" y="4" width="82" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal">
@@ -80,13 +80,13 @@
                                 </state>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="calender.png" translatesAutoresizingMaskIntoConstraints="NO" id="dlG-ZG-bB5">
-                                <rect key="frame" x="68" y="12" width="14" height="14"/>
+                                <rect key="frame" x="73" y="12" width="14" height="14"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rfs-cz-bfl" userLabel="Start Time">
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rfs-cz-bfl" userLabel="Start Time">
                         <rect key="frame" x="185" y="0.0" width="87" height="38"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
@@ -111,7 +111,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rKu-pp-rk4" userLabel="End Time ">
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rKu-pp-rk4" userLabel="End Time ">
                         <rect key="frame" x="291" y="0.0" width="87" height="38"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
@@ -185,20 +185,27 @@
             </tableViewCellContentView>
             <connections>
                 <outlet property="cancelLabel" destination="sn1-Jc-9Pv" id="OOg-Ud-0N5"/>
+                <outlet property="cancel_button_detailView" destination="nlX-a4-jYn" id="kzU-ii-9al"/>
                 <outlet property="dateLabel" destination="ZSS-no-tpw" id="Nor-NL-EEv"/>
                 <outlet property="date_TextField" destination="LB4-ms-3Jy" id="uLu-Iw-VTH"/>
                 <outlet property="date_UIview" destination="lAq-8A-ary" id="AQ9-RL-Hyf"/>
+                <outlet property="date_edit_button_detailView" destination="7ZR-Cf-7bX" id="RFc-pn-vEz"/>
                 <outlet property="dayLabel" destination="HLt-Mo-N6o" id="ktW-oW-vwu"/>
                 <outlet property="deleteButton" destination="YgN-Pp-Ucb" id="NYz-RO-KCr"/>
+                <outlet property="delete_imageview" destination="0L0-6X-9N7" id="KWF-39-ZaX"/>
                 <outlet property="editButton" destination="Sve-vY-42R" id="CEg-fq-fWt"/>
+                <outlet property="edit_imageView" destination="1UT-Nm-ENZ" id="pd0-EE-NOK"/>
                 <outlet property="endTimeLabel" destination="FWB-FC-vdV" id="ucF-IQ-6kE"/>
                 <outlet property="endTime_TextField" destination="5iz-eT-mR8" id="cRP-tE-SG5"/>
                 <outlet property="endTime_UIview" destination="rKu-pp-rk4" id="ATu-is-LdT"/>
+                <outlet property="endTime_edit_button_detailView" destination="jL8-Gx-AIr" id="aLh-m4-eu2"/>
                 <outlet property="saveCancel_UIview" destination="H5i-v9-Pz9" id="vy5-bp-GgH"/>
                 <outlet property="saveLabel" destination="fu0-f0-i6S" id="Xdb-SP-Rk4"/>
+                <outlet property="save_button_detailView" destination="0nM-CD-2z6" id="7Lx-hU-kIM"/>
                 <outlet property="startTime_Label" destination="vhy-vP-lxH" id="bO7-gV-h5j"/>
                 <outlet property="startTime_TextField" destination="mFU-l4-EQ6" id="vSE-Gg-4JR"/>
                 <outlet property="startTime_UIview" destination="rfs-cz-bfl" id="FLK-Ub-YEL"/>
+                <outlet property="startTime_edit_button_detailView" destination="hZe-Ol-gS7" id="z5R-7g-SDd"/>
             </connections>
         </tableViewCell>
     </objects>

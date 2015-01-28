@@ -1,0 +1,296 @@
+/* 
+  custom.strings
+  GIS_Scheduler
+
+  Created by Anand on 21/07/14.
+  Copyright (c) 2014 Paradigm. All rights reserved.
+*/
+
+
+////////    Login   //////////
+
+"user_name" = "User Name";
+"password"  = "Password";
+"login"     = "Login";
+"gis_title" = "GIS";
+"enter_username_password" = "Please Enter Username and Password";
+"enter_validEmail" = "Please Enter Valid Email";
+"network_connection"="This action could not be completed. Please check your network connection.";
+"login_requestFail" = "Get User Login request fail";
+"enter_valid_username_password" = "Please Enter Valid Username and Password";
+"alert_ok" = "OK";
+"new request" = "New Request";
+
+
+////////   Event Details ///////
+
+"event_name" = "Event Name :";
+"event_type"  = "Event Type :";
+"open_toPublic"     = "Open To Public :";
+"dress_Code" = "Dress Code :";
+"recorede_braoadcast" = "Recorded/Broadcast :";
+"on_going" = "On Going :";
+"course_id"="Course ID :";
+"other_technologies" = "Other technologies :";
+"fm_system" = "FM System";
+"micro_phone" = "Microphone";
+"phone_conferencing" = "Phone Conferencing";
+"webinar" = "Webinar";
+"preparation_material_label" = "Preparation Material :";
+"preparation_material" = "Preparation Material";
+"document"     = "Document";
+"blackboard_access" = "Blackboard Access";
+"website" = "Website";
+"other" = "Other";
+"event_description"="Event Description";
+"description" = "Description :";
+"other_servicesNeeded" = "Other Services Needed";
+"other_services" = "Other Services :";
+"captioning_type" = "Captioning Type :";
+"viewing_type" = "Viewing Type :";
+"of_users" = "#of Users :";
+"yes"  = "Yes";
+"no" = "No";
+"empty_selection" = "-- Select --";
+"select_choose_request"= "Select Choose Request";
+"enter_valid_details"="Please enter details in these fields : \n %@ ";
+"please_check_details"="Please check details entered";
+"outside_agency"="Outside Agency";
+"type_Of_Record_Broadcast" = "Type of Record Broadcast?";
+
+////////   Location Details ///////
+
+"locationDetails_offcampus" = "Location Details Off Campus";
+"building_name"  = "Building Name :";
+"room_no"     = "Room No :";
+"room_name" = "Room Name :";
+"other" = "Other";
+"social_protocol" = "Special Protocol :";
+"metro_nearby"="Metro Nearby :";
+"parking" = "Parking :";
+"garage" = "Garage";
+"matered" = "Matered";
+"street" = "Street";
+"unknown" = "Unknown";
+"general_location" = "General Location :";
+"location_details_onCampus"     = "Location Details On Campus";
+"store_location" = "Store Location :";
+"location_name" = "Location Name :";
+"address1" = "Address1 :";
+"address2"="Address2 :";
+"city" = "City :";
+"state" = "State :";
+"zip" = "Zip :";
+"closest_metro" = "Closest Metro :";
+"special_protocol" = "Special Protocol :";
+"other_info" = "Other Information :";
+"next"  = "Next";
+"gallaudet_campus"  = "Gallaudet Campus";
+"location_Details" = "Location Details";
+
+
+////////   Comment ///////
+
+"account_administration" = "Accounts Administration";
+"no_comments" = "No Comments";
+"scheduler" = "Scheduler";
+"add_Comments" = "Add Comments";
+
+////////   tabbar ///////
+
+"contact_billing" = "Contact & Billing";
+"event_details" = "Event Details";
+"attendees" = "Attendees";
+"location_details" = "Location Details";
+"dates_times" = "Dates & Times";
+"job_details" = "Job Details";
+"summary" = "Summary";
+"comments" = "Comments";
+
+////////--------- Contacts and Billing---------////////
+
+"unit_department"="Unit/Department :";
+"first_name"="First Name :";
+"last_name"="Last Name :";
+"email"="Email :";
+"contacts"="Contacts :";
+"billing_details"="Billing Details";
+"requestor_Details"="Requestor Details";
+"department"="Department :";
+"buh_first_name"="BUH First Name :";
+"buh_last_name"="BUH Last Name :";
+"buh_email"="BUH Email :";
+"buh_address_one"="BUH Address 1 :";
+"buh_address_two"="BUH Address 2 :";
+"buh_city"="BUH City :";
+"buh_state"="BUH State :";
+"buh_zip"="BUH ZIP :";
+"next"="Next";
+
+
+////////--------- Attendees ---------////////
+"select_no_of_expected_attendees"= "Select No of expected attendees :";
+"gender_Preference"="Gender Preference :";
+"attendees_List"="Attendees List";
+"service_Provider" = "Service Provider";
+"preference"="Preference :";
+"primary_mode_of"= "Primary mode of";
+"communication"= "communication :";
+"directly_utilized"= "Directly utilized";
+"services"= "services :";
+"attendee"= "Attendee";
+"service_Needed"= "Service Needed :";
+"mode_of_communication"= "Mode of Communication :";
+"directly_utilized_Services"= "Directly Utilized Services :";
+
+////Dates and Times
+"create_dates_times" = "Create Dates and Times";
+"start_date_" = "Start Date :";
+"end_date_" = "End Date :";
+"start_time_" = "Start Time :";
+"end_time_" = "End Time :";
+"weekDays" = "Week Days :";
+"monday" = "Monday";
+"tuesday" = "Tuesday";
+"wednesday" = "Wednesday";
+"thursday" = "Thursday";
+"friday" = "Friday";
+"saturday" = "Saturday";
+"sunday" = "Sunday";
+
+"view_edit_dates_times" = "View/Edit Dates and Times";
+"day" = "Day";
+"date" = "Date";
+"startTime" = "Start Time";
+"endTime" = "End Time";
+"create_dates_times_Btn" = "Create Dates/Times";
+"create_jobs_btn" = "Create Jobs";
+"create_dates_times_Alert" = "The Selected Dates/Times has some booking Conflicts.";
+
+/////Alert Msgs
+"successfully_saved" = "Successfully Saved";
+"successfully_deleted" = "Successfully Deleted";
+"please_enter_first_name" = "Please enter first name";
+"please_enter_last_name" ="Please enter last name";
+"please_enter_email" = "Please enter email";
+"select Unit/Department"= "Select Unit/Department";
+"do you want to delete"= "Do you want to delete ?";
+"gis" = "GIS";
+"requests found" = "Requests Found";
+"jobs found"= "Jobs Found";
+"start Date alert"= "Start Date should be less than end Date";
+"end Date alert" = "End Date should be more than start Date";
+"start Time alert"= "Start Time should be less than end Time";
+"end Time alert" = "End Time should be more than start Time";
+"call_in_time_alert" = "Call In Time should be more than end Time";
+"time alert"="Please select between time";
+"loading" = "loading";
+"number_of_service_providers" = "Please enter number of service providers";
+"select_Type_of_service_providers" = "Please select Type of Service Providers";
+"select_pay_level" = "Please select Pay Level";
+"select_bill_level" = "Please select Bill Level";
+"select_one_job" = "Please select atleast one Dates/Times";
+"select_pay_type" = "Please select Pay Type";
+"date_time_successed" = "Date & time created successfully";
+"date_time_updated" = "Date & time updated successfully";
+"date_time_deleted" = "Date & time deleted successfully";
+"jobs_successed" = "Jobs Inserted successfully";
+"jobs_deleted" = "Jobs Deleted successfully";
+"jobs_updated" = "Jobs Updated successfully";
+
+
+
+"select_primary_audience"= "Select Primary Audience";
+"please_Enter_Valid_Email"= "Please Enter Valid Email";
+
+"request_Failed"= "Request Failed";
+"select_Start_Date"= "Select Start Date";
+"select_End_Date"= "Select End Date";
+"select_Start_Time"="Select Start Time";
+"select_End_Time"="Select End Time";
+"add attendee"  = "Add Attendee";
+
+
+     ////// Summary ////////
+
+"contact_billing_info" = "Contact And Billing Info";
+
+"Request_ID" = "Request ID :";
+"Start_Date" = "StartDate :";
+"End_Date" = "End Date :";
+"Start_Time" = "Start Time :";
+"End_Time" = "End Time :";
+"Requestor_Type" = "Requestor Type :";
+"Requestor" = "Requestor :";
+"Registered_Consumer" = "Registered Consumer :";
+"General_Location" = "General Location :";
+"Pay_Level" = "Pay Level :";
+"Primary_Audience" = "Primary Audience :";
+"Model" = "Mode :";
+"Open_to_Public" = "Open to Public :";
+"Request_Data_to_Search" = "Request Data to Search";
+"Job_Data_to_Search" = "Job Data to Search";
+"Choose_Weekdays" = "Choose Weekdays :";
+"Service_Provider_Type" = "Service Provider Type :";
+"Service_Provider" = "Service Provider :";
+"Filled" = "Filled :";
+"Pay_Type" = "Pay Type :";
+"OutORAgency" = "Out/Agency :";
+"Created_By" = "Created_By :";
+"Timely_label" = "Timely :";
+"Canceled" = "Canceled :";
+"Timely" = "Timely";
+"untimely" = "untimely";
+"un_timely" = "UnTimely";
+"Bill_Level" = "Bill Level :";
+"Cancel_Date" = "Cancel Date :";
+"request_cannnot_submitted" = "Request cannot be submitted for approval, since jobs are not created";
+
+
+//Navigation Titles
+"Find_Requests_Jobs"= "Find Requests/Jobs - Result";
+"Jobs_Assignment"="Jobs Assignment";
+
+"Job_Info"= "Job Info";
+"Job_Date"="Job Date :";
+"Call_In_Time"="Call In Time :";
+"Type_of_Service_Provider"="Type of Service Provider :";
+"Service_Provider_ID"="Service Provider :";
+"Out_Agency"="Out Agency :";
+"Timely_and_Half"="Timely and 1/2 :";
+"BillOrPayment_Info"="Bill/PaymentInfo";
+"Bill_Amt"="Bill Amt :";
+"Mileage"="Mileage :";
+"Invoice"="Invoice :";
+"Amt_Paid"="Amt Paid :";
+"Bill_Date"="Bill Date :";
+"Agency_Fee"="Agency Fee :";
+"Pay_Status"="Pay Status :";
+"Exp_Status"="Exp Status :";
+"Notes/History"="Notes/History";
+"Add_Notes"="Add Notes";
+"Requests_by_Service_Providers"="Requests by Service Providers";
+"Service_Provider_Name"="Service Provider Name";
+"Requested_Date"="Requested Date";
+"GIS_Response"="GIS Response";
+"Cancel"="Cancel";
+"Job_Change_History"="Job Change History";
+"Done"="Done";
+"Please_record_any_changes_you_made"="Please record any changes you made into the Change Notes filed";
+"Time"="Time :";
+"Date_"="Date :";
+"User"="User :";
+"Job_History_Notes"="Job History Notes :";
+"Service_Provider_Sub_role"="Service Provider Sub role :";
+"Service_Provider_Name"="Service Provider Name :";
+"Unit/Account"="Unit/Acount :";
+"Type_of_Account"="Type of Account :";
+"External"="External";
+"Internal"="Internal";
+"On_Going_Request"="On-Going Request :";
+"Restricted"="Restricted : ";
+"select_service_provider"= "Select Service Provider";
+"updated_successfully"= "Updated Successfully";
+"no_data"= "No records found";
+"Service_Provider_RequestedJobs_Results"="Service Provider Requested Jobs - Results";
+"overRideBill"="Override Bill :";
